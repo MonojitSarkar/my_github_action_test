@@ -1,4 +1,4 @@
-from src.math_operations import add, sub
+from src.math_operations import add, sub, multiply
 
 def test_add():
     assert add(2, 3) == 5
@@ -7,3 +7,7 @@ def test_add():
 def test_sub():
     assert sub(10, 5) == 5
     assert sub(1, 1) == 0
+
+def test_multiply():
+    assert multiply(5, 5) == 25
+    assert multiply(10, 10) == 100
